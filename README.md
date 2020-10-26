@@ -24,7 +24,7 @@ View the [Github-pages](https://garimaggupta.github.io/hw6/)
 The focus of this project was to use the [OpenWeather API](https://openweathermap.org/api) to retrieve weather data for cities and use `localStorage` to store any persistent data. The dashboard will display the current weather of temperature, humidity, wind speed, and UV index, which will be color coded based on the value being low, moderate or high. It will also display the five-day forecast with its date, temperature, weather icon, humidity. The search history will be added as buttons for future retreival.
 
 
-![Project snapshot](Assets/weather.jpg)
+![Project snapshot](assets/weather.jpg)
 
 ### User Story
 
