@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <div class="container-fluid header">
+        <h1 class="display-4 text-center">Weather Dashboard</h1>
+    </div>
+    <div class="container-fluid">
+        <div class="row row-width">
+            <div class="col-3 col-lg-3 col-md-3 col-sm-12 col-12">
+                <h3>Search for a City:</h3> <br>
+                <form class="example">
+                    <input type="text" placeholder="Enter City Name" name="search" id="search">
+                    <button type="submit" id="add-cities"><i class="fa fa-search"></i></button>
+                </form>
+                <div id="past-cities-btn"></div>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                <div class="row row-border" id="currentForecast">
+                    <div class="row full-row">
+                        <h2 id="curCity"></h2>
+                    </div>
+                    <div class="row full-row" id="temp"></div>
+                    <div class="row full-row" id="humidity"></div>
+                    <div class="row full-row" id="windSpeed"></div>
+                    <div class="row full-row" id="uvIndex">UV Index:&nbsp; <span id="uv-value"></span></div>
+                </div>
+                <div class="row row-width" id="5dayForecast">
+                    <div class="row">
+                        <div class="row row-width">
+                            <h3>5-Day Forecast: </h3>
+                        </div>
+                        <div class="row row-width">
+                            <div class="col-lg-2 col-md-2 col-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title" id="day1"></h5>
+                                        <div id="day1icon"></div>
+                                        <b>
+                                            <div id="day1temp"></div> <br>
+                                            <div id="day1humidity"></div>
+                                        </b>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title" id="day2"></h5>
+                                        <div id="day2icon"></div>
+                                        <b>
+                                            <div id="day2temp"></div> <br>
+                                            <div id="day2humidity"></div>
+                                        </b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title" id="day3"></h5>
+                                        <div id="day3icon"></div>
+                                        <b>
+                                            <div id="day3temp"></div> <br>
+                                            <div id="day3humidity"></div>
+                                        </b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title" id="day4"></h5>
+                                        <div id="day4icon"></div>
+                                        <b>
+                                            <div id="day4temp"></div> <br>
+                                            <div id="day4humidity"></div>
+                                        </b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title" id="day5"></h5>
+                                        <div id="day5icon"></div>
+                                        <b>
+                                            <div id="day5temp"></div> <br>
+                                            <div id="day5humidity"></div>
+                                        </b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

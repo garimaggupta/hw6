@@ -1,0 +1,118 @@
+.header {
+    background-color:#4b4c4c;
+    color:white;
+    padding: 20px 0px 20px 0px;
+    font-weight: bolder;
+}
+
+.row-border {
+    border: 1px solid;
+    padding: 30px 30px 30px 30px;
+    margin: 20px 0px 20px 0px;
+    width: 100%;
+}
+.row-width {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.full-row {
+    width:100%;
+    padding: 10px 10px 10px 10px;
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.card {
+    background-color:#007bff;
+    color:white;
+}
+
+input {
+    width: 80% !important;
+    border: 1px solid !important;
+  }
+
+  .cities-btn {
+      width: 100%;
+      text-align: left;
+      /* padding-left: 10px; */
+      padding: 20px 10px 10px 10px;
+      /* margin: 10px 10px 10px 0px; */
+      font-weight: bold;
+  }
+
+  .cities-btn:hover {
+      background-color: #007bff ;
+  }
+
+   #past-cities-btn {
+       padding-top: 20px;
+   }
+   
+  p {
+      display: block !important;
+  }
+
+  .uvindex-high {
+      background-color:red;
+      color: white;
+      padding:5px 5px 5px 5px;
+  }
+
+  .uvindex-moderate {
+    background-color:rgba(255, 166, 0, 0.924);
+    color: white;
+    padding:5px 5px 5px 5px;
+}
+
+.uvindex-low {
+    background-color:green;
+    color: white;
+    padding:5px 5px 5px 5px;
+}
+
+.show {
+    display:block;
+}
+
+.hide {
+    display:none;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  Clear floats
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
